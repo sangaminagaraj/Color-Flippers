@@ -1,0 +1,39 @@
+html,
+body{
+    margin: 0;
+    font-family: 'Apple Chancery',cursive
+}
+
+#heading{
+    color:crimson;
+    text-align: left;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+#color{
+    margin-right: 15px;
+    float: right;
+}
+
+#wrap{
+    height: 90vh;
+    width: 100vw;
+    border-top:3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: 1px solid black;
+    background-color: aqua;
+    color: black;
+    border-radius: 15px;
+    padding: 20px 80px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
